@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+     <head th:replace="layout/plantilla :: head">
+          <link href="../../static/styles.css" rel="stylesheet" type="text/css"/>
+     </head>
+     <body>
+          <header th:replace="layout/plantilla :: header"></header>
+
+          <section th:replace="nosotros/fragmentosNosotros :: bannerContactenos" />
+
+          <section th:replace="nosotros/fragmentosNosotros :: descripcionContactenos" />
+          
+          <section th:replace="nosotros/fragmentosNosotros :: nuestraHistoriaContactenos" />
+          <section th:replace="nosotros/fragmentosNosotros :: cuadrosSugerenciaContactenos" />
+          <section th:replace="nosotros/fragmentosNosotros :: listadoSugerencias" />
+          <footer th:replace="layout/plantilla :: footer"></footer>
+
+     </body>
+
+</html>
